@@ -7,7 +7,7 @@ HIGH="1700M"
 STEP="125k"
 DURATION="10m"
 
-OPTS="-i 100 -g 50"
+OPTS="-P -D -O"
 
 while true; do
     NOW=`date`
