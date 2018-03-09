@@ -8,6 +8,10 @@ STEP="125k"
 DURATION="10m"
 ARGS="-g 50"
 
+if [ ! -d scans ]; then
+    mkdir scans
+fi
+
 while true; do
     NOW=`date`
     STAMP=`date +%Y%m%d%H%M%S`

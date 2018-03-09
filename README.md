@@ -2,11 +2,16 @@
 
 A few small scripts to automate scanning and rendering heatmaps with rtl_power
 
-## Install 
-- Fetch heatmap.py
+## Usage
 
-```shell
-$ wget https://raw.githubusercontent.com/keenerd/rtl-sdr-misc/master/heatmap/heatmap.py
+Run scanner on a host with the RTL-SDR device, usually a raspberry pi.
+```bash
+$ ./scanner.sh
+```
+
+Sync the scan output and render on a faster host, usually mac
+```bash
+$ ./render.sh
 ```
 
 ## Author
