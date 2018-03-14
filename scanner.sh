@@ -3,8 +3,7 @@
 # set -x 
 set -o pipefail
 
-ARGS=3
-if [ $# -lt ${ARGS} ]
+if [ $# -lt 3 ]
 then
     echo "Usage: `basename $0` LOW HIGH STEP [DURATION]"
     exit 1
